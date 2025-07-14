@@ -36,13 +36,13 @@ const Contact = () => {
     {
       icon: Phone,
       title: "Call Us",
-      details: ["+91 98765 43210", "+91 87654 32109"],
+      details: ["+91 9376565827"],
       description: "Mon-Fri 9AM-6PM, Sat 9AM-2PM"
     },
     {
       icon: Mail,
       title: "Email Us",
-      details: ["info@skyseaconsulting.com", "careers@skyseaconsulting.com"],
+      details: ["hr@skyseaconsulting.com", "careers@skyseaconsulting.com"],
       description: "We'll respond within 24 hours"
     },
     {
