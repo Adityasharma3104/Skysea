@@ -28,7 +28,7 @@ const Contact = () => {
   const handleSubmit = (e) => {
     e.preventDefault();
     toast({
-      title: "🚧 Contact form submission isn't implemented yet—but don't worry! You can request it in your next prompt! 🚀"
+      title: "🚧 Contact form submission isn't implemented yet 🚀"
     });
   };
 
@@ -42,7 +42,7 @@ const Contact = () => {
     {
       icon: Mail,
       title: "Email Us",
-      details: ["hr@skyseaconsulting.com", "careers@skyseaconsulting.com"],
+      details: ["hr@skyseaconsulting.com"],
       description: "We'll respond within 24 hours"
     },
     {
@@ -138,7 +138,7 @@ const Contact = () => {
                         name="phone"
                         value={formData.phone}
                         onChange={handleInputChange}
-                        placeholder="+91 98765 43210"
+                        placeholder="+91 9376565827"
                         className="h-12"
                       />
                     </div>
@@ -270,7 +270,7 @@ const Contact = () => {
                       variant="secondary"
                       className="flex-1 bg-white text-blue-600 hover:bg-gray-100"
                       onClick={() => toast({
-                        title: "🚧 Call feature isn't implemented yet—but don't worry! You can request it in your next prompt! 🚀"
+                        title: "🚧 Call feature isn't implemented yet—but don't worry!🚀"
                       })}
                     >
                       <Phone className="w-4 h-4 mr-2" />
@@ -280,7 +280,7 @@ const Contact = () => {
                       variant="outline"
                       className="flex-1 border-white text-white hover:bg-white hover:text-blue-600"
                       onClick={() => toast({
-                        title: "🚧 WhatsApp feature isn't implemented yet—but don't worry! You can request it in your next prompt! 🚀"
+                        title: "🚧 WhatsApp feature isn't implemented yet ..🚀"
                       })}
                     >
                       <MessageSquare className="w-4 h-4 mr-2" />
